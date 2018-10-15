@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "text"
+        
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "text"
+        
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root":"subpages/package1",
+      "name":"package1",
+      "pages":[
+        "profile/profile"
+      ]
+    }
+  ]
+}
