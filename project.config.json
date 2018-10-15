@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.3.0",
-	"appid": "wxa57f7eed18c10c05",
-	"projectname": "%7B%E9%A1%B9%E7%9B%AE%E5%90%8D%E7%A7%B0%7D",
+	"appid": "{WeChat AppID}",
+	"projectname": "{Your Project Name}",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
