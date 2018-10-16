@@ -2,8 +2,9 @@
 
 这个项目是微信小程序的简单示例项目，便于项目快速开发。同步[博客](https://www.cnblogs.com/kingkangstudy/category/1320390.html)
 
-  - 项目目录结构
-  - 如何使用这个项目
+
+  - [如何使用这个项目](#如何使用这个项目)
+  - [项目目录结构](#项目目录结构)
 
 # 如何使用这个项目
   - 下载[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
