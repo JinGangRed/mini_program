@@ -64,7 +64,9 @@
 ├── app.js                  小程序逻辑
 ├── app.json                小程序公共配置
 ├── app.wxss                小程序公共样式表
+├── project.config.json     小程序的项目配置
 .
+
 
 ```
 
