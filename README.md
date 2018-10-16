@@ -1,6 +1,6 @@
 # 微信小程序快速启动项目
 
-这个项目是微信小程序的简单示例项目，便于项目快速开发。同步[博客](https://www.cnblogs.com/kingkangstudy/category/1319541.html)
+这个项目是微信小程序的简单示例项目，便于项目快速开发。同步[博客](https://www.cnblogs.com/kingkangstudy/category/1320390.html)
 
   - 项目目录结构
   - 如何使用这个项目
