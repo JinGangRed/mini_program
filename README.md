@@ -48,4 +48,25 @@
     }
     ```
 # 项目目录结构
+```
+.
+├──  assets                 项目的资源文件，如一些图片资源
+├──  configs                项目的配置文件，如后端API的URL地址  
+├──  pages                  项目的页面,这里只存放tab的页面
+│   ├──  index              项目的首页index页面
+│       ├──  index.js       index页面的页面逻辑
+│       ├──  index.json     index页面配置  
+│       ├──  index.wxml     index页面 
+│       ├──  index.wxss     index页面样式
+├── services                小程序的服务调用
+├── subpages                子页面，便于分包，降低首次加载的时候，下载慢的问题
+├── utils                   项目的一些工具类
+├── app.js                  小程序逻辑
+├── app.json                小程序公共配置
+├── app.wxss                小程序公共样式表
+.
+
+```
+
+
 
