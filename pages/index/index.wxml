@@ -1,14 +1,9 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <navigator url='/subpages/package1/profile/profile'>跳转</navigator>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view>
+<van-search
+  placeholder="请输入搜索关键词"
+  background="#2b85e4"
+  show-action="true"
+  bind:search="onSearch"
+  cancel-class="cancel"
+  custom-class="rootclass"
+>
+</van-search>

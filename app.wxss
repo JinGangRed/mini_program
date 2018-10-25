@@ -1,10 +1,51 @@
 /**app.wxss**/
-.container {
+@import 'assets/weui/weui.wxss';
+page{
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+  width: 750rpx;
+  /* border:1px solid blue; */
+}
+.row{
+  width: 750rpx;
+}
+.cel-1{
+  width: 62.5rpx;
+}
+.cel-2{
+  width: 125rpx;
+}
+.cel-3{
+  width: 187.5rpx;
+}
+.cel-4{
+  width: 250rpx;
+}
+.cel-5{
+  width: 312.5rpx;
+}
+.cel-6{
+  width: 375rpx;
+}
+.cel-7{
+  width: 437.5rpx;
+}
+.cel-8{
+  width: 500rpx;
+}
+.cel-9{
+  width: 562.5rpx;
+}
+.cel-10{
+  width: 625rpx;
+}
+.cel-11{
+  width: 687.5rpx;
+}
+.cel-12{
+  width: 750rpx;
+}
+.seg-line{
+  height: 30rpx;
+  width: 750rpx;
+  background: #e9eaec;
+}

@@ -1,33 +1,53 @@
 {
   "pages": [
-    "pages/index/index"
-    
+    "pages/index/index",
+    "pages/myinfo/my",
+    "pages/products/product",
+    "pages/choose/choose"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#2b85e4",
+    "navigationBarTitleText": "小谷股",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f8f8f9"
   },
   "tabBar": {
+    "color": "black",
+    "selectedColor": "#2b85e4",
+    "backgroundColor": "#f8f8f9",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "text"
-        
+        "text": "商城首页",
+        "iconPath": "assets/images/home.png",
+        "selectedIconPath": "assets/images/home-selected.png"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "text"
-        
+        "pagePath": "pages/products/product",
+        "text": "股票中心",
+        "iconPath": "assets/images/trend.png",
+        "selectedIconPath": "assets/images/trend-selected.png"
+      },
+      {
+        "pagePath": "pages/choose/choose",
+        "text": "我的股票",
+        "iconPath": "assets/images/choose.png",
+        "selectedIconPath": "assets/images/choose-selected.png"
+      },
+      {
+        "pagePath": "pages/myinfo/my",
+        "text": "个人中心",
+        "iconPath": "assets/images/my.png",
+        "selectedIconPath": "assets/images/my-selected.png"
       }
     ]
   },
   "subPackages": [
     {
-      "root":"subpages/package1",
-      "name":"package1",
-      "pages":[
+      "root": "subpages/userinfo",
+      "name": "userinfo",
+      "pages": [
         "profile/profile"
       ]
     }
