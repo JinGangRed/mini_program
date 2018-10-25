@@ -48,6 +48,12 @@
 	    }
     }
     ```
+  - 添加[vant(有赞)](https://youzan.github.io/vant-weapp/#/intro)小程序UI框架:
+    - 在assets文件夹下创建一个文件夹vant
+    ```
+      通过 git 下载 Vant Weapp 源代码，并将dist目录拷贝到vant文件夹下
+      git clone https://github.com/youzan/vant-weapp.git
+    ```
 # 项目目录结构
 ```
 .
