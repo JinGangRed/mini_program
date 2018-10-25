@@ -1,6 +1,6 @@
 # 微信小程序快速启动项目
 
-这个项目是微信小程序的简单示例项目，便于项目快速开发。同步[博客](https://www.cnblogs.com/kingkangstudy/category/1320390.html)
+这个项目是微信小程序的简单示例项目，便于项目快速开发,该项目采用[vant(有赞)](https://youzan.github.io/vant-weapp/#/intro)。同步[博客](https://www.cnblogs.com/kingkangstudy/category/1320390.html)
 
 
   - [如何使用这个项目](#如何使用这个项目)
